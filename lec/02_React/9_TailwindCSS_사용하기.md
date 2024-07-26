@@ -11,7 +11,7 @@ npx tailwindcss init
 
 ```js
 module.exports = {
-	content: ['./src/**/*.{html,js}'],
+	content: ['./src/**/*.{html,js,jsx,ts,tsx}'],
 	theme: {
 		extend: {},
 	},
@@ -19,7 +19,7 @@ module.exports = {
 };
 ```
 
-## src/assets/globals.css 파일 수정하기
+## index.css 파일 수정하기
 
 ```css
 @tailwind base;
